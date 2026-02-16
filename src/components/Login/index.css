@@ -23,7 +23,7 @@
     width: 485px;
   }
 }
-.website-logo {
+.page-name {
   width: 117px;
   height: 44px;
   font-family: Caveat;
@@ -103,7 +103,7 @@
   border-width: 1px;
   padding-top: 8px 12px 8px 8px;
   gap: 24px;
-  border: 1px solid #64748b;
+  border: none;
   margin-top: 6px;
   font-family: 'Roboto';
   font-weight: 400;
@@ -112,4 +112,49 @@
   letter-spacing: 0.2px;
   color: #0f0f0f;
   outline: none;
+}
+
+.show-password-button {
+  cursor: pointer;
+  outline: none;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+}
+
+.login-button {
+  width: 272px;
+  height: 44px;
+  top: 510px;
+  left: 44px;
+  border-radius: 8px;
+  padding: 12px 24px;
+  gap: 8px;
+  background-color: #304766;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #ffff;
+  border: none;
+  margin-top: 30px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .login-button {
+    width: 352px;
+  }
+}
+
+.error-message {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.23px;
+  letter-spacing: 0.2px;
+  color: #ef4444;
+  margin-bottom: 0px;
 }
