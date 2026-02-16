@@ -39,7 +39,7 @@
 .username-input-container {
   margin-top: 20px;
 }
-label {
+.label {
   width: 70px;
   height: 20px;
   font-family: 'Roboto';
