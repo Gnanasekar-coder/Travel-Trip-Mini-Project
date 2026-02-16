@@ -1,0 +1,115 @@
+.login-container {
+  background: #ffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card {
+  width: 328px;
+  height: 470px;
+  border-radius: 16px;
+  background: #ffff;
+  box-shadow: 0px 20px 25px 0px #0f172a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .login-card {
+    width: 485px;
+  }
+}
+.website-logo {
+  width: 117px;
+  height: 44px;
+  font-family: Caveat;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #334155;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}
+.username-input-container {
+  margin-top: 20px;
+}
+label {
+  width: 70px;
+  height: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #334155;
+}
+
+.username-input {
+  width: 272px;
+  height: 38px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding-top: 8px 12px 8px 8px;
+  gap: 24px;
+  border: 1px solid #64748b;
+  margin-top: 6px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #0f0f0f;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .username-input {
+    width: 352px;
+  }
+}
+
+.password-input-container {
+  margin-top: 20px;
+}
+
+.password-show-hide-container {
+  width: 272px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  border-width: 1px;
+  padding-top: 8px 12px 8px 8px;
+  border: 1px solid #64748b;
+  margin-top: 6px;
+}
+
+@media screen and (min-width: 768px) {
+  .password-show-hide-container {
+    width: 352px;
+  }
+}
+
+.password-input {
+  width: 272px;
+  height: 38px;
+  border-radius: 8px;
+  border-width: 1px;
+  padding-top: 8px 12px 8px 8px;
+  gap: 24px;
+  border: 1px solid #64748b;
+  margin-top: 6px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #0f0f0f;
+  outline: none;
+}
